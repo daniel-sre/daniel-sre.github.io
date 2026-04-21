@@ -1,0 +1,1 @@
+import{_ as e,c as t,o,a as n}from"./app.3f341ef6.js";const k=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"network/go-network.md"}'),r={name:"network/go-network.md"},a=n("p",null,"hello done",-1),s=[a];function c(_,d,l,p,i,m){return o(),t("div",null,s)}const h=e(r,[["render",c]]);export{k as __pageData,h as default};
