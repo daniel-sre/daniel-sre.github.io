@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a,a as o}from"./app.3f341ef6.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"basic/go-basic.md"}'),s={name:"basic/go-basic.md"},c=o("p",null,"hello done",-1),n=[c];function r(i,_,d,l,p,m){return a(),t("div",null,n)}const u=e(s,[["render",r]]);export{h as __pageData,u as default};

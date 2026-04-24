@@ -1,0 +1,1 @@
+import{_ as o,c as t,o as e,a as s}from"./app.3f341ef6.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tools/tools-sanport.md"}'),a={name:"tools/tools-sanport.md"},n=s("p",null,"hello done",-1),r=[n];function c(l,p,_,d,i,m){return e(),t("div",null,r)}const u=o(a,[["render",c]]);export{h as __pageData,u as default};

@@ -1,0 +1,1 @@
+import{_ as o,c as t,o as e,a as s}from"./app.3f341ef6.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tools/tools-gopack.md"}'),a={name:"tools/tools-gopack.md"},c=s("p",null,"hello done",-1),n=[c];function r(l,p,_,d,i,m){return e(),t("div",null,n)}const u=o(a,[["render",r]]);export{h as __pageData,u as default};

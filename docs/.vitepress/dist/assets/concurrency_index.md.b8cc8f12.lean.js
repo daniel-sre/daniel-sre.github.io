@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n,a as c}from"./app.3f341ef6.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"concurrency/index.md"}'),o={name:"concurrency/index.md"},a=c("p",null,"\u5E76\u53D1",-1),r=[a];function s(d,_,i,p,l,m){return n(),t("div",null,r)}const x=e(o,[["render",s]]);export{f as __pageData,x as default};
