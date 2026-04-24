@@ -1,1 +1,0 @@
-import{_ as e,c as a,o as t,a as o}from"./app.3f341ef6.js";const v=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"advanced/go-advanced.md"}'),n={name:"advanced/go-advanced.md"},c=o("p",null,"hello done",-1),d=[c];function s(r,_,l,p,i,m){return t(),a("div",null,d)}const h=e(n,[["render",s]]);export{v as __pageData,h as default};

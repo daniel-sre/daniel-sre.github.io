@@ -1,1 +1,0 @@
-import{_ as e,c as o,o as t,a as s}from"./app.3f341ef6.js";const h=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"tools/tools-webscan.md"}'),a={name:"tools/tools-webscan.md"},n=s("p",null,"hello done",-1),c=[n];function r(l,_,d,p,i,m){return t(),o("div",null,c)}const u=e(a,[["render",r]]);export{h as __pageData,u as default};
