@@ -1,85 +1,129 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Daniel | SRE / DevOps</title>
+<meta charset="UTF-8">
+<title>Daniel | DevOps</title>
 
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #0f172a;
-      color: #e2e8f0;
-      margin: 40px;
-    }
+<style>
+:root {
+  --bg: #0f172a;
+  --sidebar: #111827;
+  --card: #1e293b;
+  --text: #e5e7eb;
+  --subtext: #9ca3af;
+  --primary: #3b82f6;
+  --hover: #22c55e;
+}
 
-    h1 {
-      color: #38bdf8;
-    }
+body {
+  margin: 0;
+  display: flex;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
 
-    h2 {
-      margin-top: 30px;
-      border-bottom: 1px solid #334155;
-      padding-bottom: 5px;
-    }
+/* 左侧 */
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background: var(--sidebar);
+  padding: 20px;
+  box-sizing: border-box;
+  border-right: 1px solid #1f2937;
+}
 
-    a {
-      color: #22c55e;
-      text-decoration: none;
-    }
+.sidebar h2 {
+  margin-top: 0;
+  color: var(--primary);
+}
 
-    .card {
-      background: #1e293b;
-      padding: 15px;
-      border-radius: 8px;
-      margin-top: 15px;
-    }
-  </style>
+.sidebar h3 {
+  font-size: 14px;
+  color: var(--subtext);
+  margin-top: 20px;
+}
+
+.sidebar a {
+  display: block;
+  padding: 6px 0;
+  color: var(--text);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.sidebar a:hover {
+  color: var(--hover);
+}
+
+/* 右侧 */
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+/* 卡片 */
+.card {
+  background: var(--card);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+a.link {
+  color: var(--primary);
+  text-decoration: none;
+}
+
+a.link:hover {
+  text-decoration: underline;
+}
+</style>
 </head>
 
 <body>
 
-<h1>Hi, I'm Daniel 👋</h1>
-<p>SRE / DevOps Engineer (Learning)</p>
+<!-- 左侧导航 -->
+<div class="sidebar">
+  <h2>Daniel</h2>
 
-<!-- 🚀 Projects -->
-<h2>🚀 Projects</h2>
+  <h3>PROJECTS</h3>
+  <a href="#">Go Port Scanner</a>
 
-<div class="card">
-  <h3>Go Port Scanner</h3>
-  <p>A concurrent TCP port and URL scanner written in Go.</p>
-  <p>
-    Features:
-    <br>✔ Worker pool concurrency
-    <br>✔ TCP port scanning
-    <br>✔ HTTP/HTTPS probing
-    <br>✔ JSON output support
-  </p>
-  <p>
-    👉 <a href="https://github.com/daniel-sre/go-port-scanner" target="_blank">
-      View on GitHub
-    </a>
-  </p>
+  <h3>GO</h3>
+  <a href="/articles/go-basic.html">基础</a>
+  <a href="/articles/go-concurrency.html">并发</a>
+
+  <h3>NETWORK</h3>
+  <a href="/articles/network.html">概览</a>
+
+  <h3>TOOLS</h3>
+  <a href="#">scanport</a>
+  <a href="#">webscan</a>
 </div>
 
-<!-- 📚 Articles -->
-<h2>📚 Articles</h2>
+<!-- 右侧内容 -->
+<div class="content">
 
-<ul>
-  <li><a href="/articles/go-concurrency.html">Go Concurrency</a></li>
-  <li><a href="/articles/networking.html">Networking Basics</a></li>
-</ul>
+  <h1>Hi, I'm Daniel 👋</h1>
+  <p style="color: var(--subtext)">SRE / DevOps Engineer (Learning)</p>
 
-<!-- 🛠 Tech Stack -->
-<h2>🛠 Tech Stack</h2>
-<p>Go · Linux · Docker · Networking</p>
+  <div class="card">
+    <h2>Go Port Scanner</h2>
+    <p>A concurrent TCP port and URL scanner written in Go.</p>
+    <p style="color: var(--subtext)">
+      Worker pool · TCP scan · HTTP probe · JSON output
+    </p>
+    <a class="link" href="https://github.com/daniel-sre/go-port-scanner">
+      View on GitHub →
+    </a>
+  </div>
 
-<!-- 📈 Goals -->
-<h2>📈 Goals</h2>
-<p>Build useful DevOps tools and become a professional SRE.</p>
-
-<!-- 📫 Contact -->
-<h2>📫 Contact</h2>
-<p>Email: daniel.wang.devops@icloud.com</p>
+</div>
 
 </body>
 </html>
