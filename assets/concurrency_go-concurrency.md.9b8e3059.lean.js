@@ -1,1 +1,0 @@
-import{_ as e,c,o,a as n}from"./app.3f341ef6.js";const f=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"concurrency/go-concurrency.md"}'),r={name:"concurrency/go-concurrency.md"},t=n("p",null,"hello done",-1),a=[t];function s(_,d,l,p,i,u){return o(),c("div",null,a)}const h=e(r,[["render",s]]);export{f as __pageData,h as default};
