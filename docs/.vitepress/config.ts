@@ -7,52 +7,20 @@ export default {
       },
 
       {
-        text: "Basic",
+        text: "Go",
         items: [
-          { text: "Overview", link: "/go/basic/" },
-
           {
-            text: "Slice",
+            text: "Basic",
             items: [
-              { text: "Overview", link: "/go/basic/slice/" },
-              { text: "底层结构与扩容机制", link: "/go/basic/slice/core" }
+              { text: "Slice", link: "/go/basic/slice" },
+              { text: "Map", link: "/go/basic/map/map" },
+              { text: "Interface", link: "/go/basic/interface/interface" },
+              { text: "Struct", link: "/go/basic/struct/struct" }
             ]
           },
 
-          {
-            text: "Map",
-            items: [
-              { text: "Overview", link: "/go/basic/map/" }
-            ]
-          },
-
-          {
-            text: "Struct",
-            items: [
-              { text: "Overview", link: "/go/basic/struct/" }
-            ]
-          },
-
-          {
-            text: "Interface",
-            items: [
-              { text: "Overview", link: "/go/basic/interface/" }
-            ]
-          }
-        ]
-      },
-
-      {
-        text: "Concurrency",
-        items: [
-          { text: "Overview", link: "/go/concurrency/" }
-        ]
-      },
-
-      {
-        text: "Memory",
-        items: [
-          { text: "Overview", link: "/go/memory/" }
+          { text: "Concurrency", link: "/go/concurrency" },
+          { text: "Memory", link: "/go/memory" }
         ]
       },
 
@@ -60,8 +28,8 @@ export default {
         text: "Network",
         items: [
           { text: "Overview", link: "/network/" },
-          { text: "TCP/IP", link: "/network/tcp-ip" },
-          { text: "HTTP", link: "/network/http" }
+          { text: "HTTP", link: "/network/http" },
+          { text: "TCP/IP", link: "/network/tcp-ip" }
         ]
       },
 
@@ -69,8 +37,8 @@ export default {
         text: "System",
         items: [
           { text: "Overview", link: "/system/" },
-          { text: "Linux", link: "/system/linux" },
-          { text: "IO Model", link: "/system/io-model" }
+          { text: "IO", link: "/system/io" },
+          { text: "Linux", link: "/system/linux" }
         ]
       },
 
